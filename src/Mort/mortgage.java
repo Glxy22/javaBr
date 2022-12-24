@@ -35,7 +35,7 @@ public class mortgage {
 
         float monthlyRate = annulInterestRate / percent /monthInYear;
 
-        System.out.print("Years : ");
+        System.out.print("Years is : ");
         byte year = scanner.nextByte();
         int numberOfPayments = year * monthInYear;
         double mortgage = principle * (( monthlyRate * Math.pow(1 + monthlyRate, numberOfPayments))/(Math.pow(1+ monthlyRate,numberOfPayments)-1));
