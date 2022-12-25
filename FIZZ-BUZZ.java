@@ -16,5 +16,10 @@ public class Hello {
             System.out.println("FIZZ BUZZ");
         else
             System.out.println("Number entered is :" + num);
+        
+        //FOR-EACH loop
+         String [] names = {"Huzaifa" , "Talha" , "Mayeda"};
+        for(String newarr : names)
+            System.out.print(newarr + "\t");
     }
 }
